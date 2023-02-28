@@ -7,7 +7,7 @@ class Ship:
         self.screen_rect = ai_game.screen.get_rect()
 
         self.image = pygame.image.load('images/ship_pic.bmp')
-        self.offset = 141   #image offset value
+        self.offset = 141   #image offset 
         self.rect = self.image.get_rect()
 
         self.rect.midbottom = self.screen_rect.midbottom
