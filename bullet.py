@@ -15,7 +15,7 @@ class Bullet(Sprite):
 
 
     def update(self):
-        self.rect.y -= self.settings.bullet_speed
+        self.rect.y -= self.settings.bullet_speed 
 
         
 
